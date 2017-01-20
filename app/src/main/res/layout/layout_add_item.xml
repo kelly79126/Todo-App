@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/wifi_list_item_horizontal_padding"
+        android:duplicateParentState="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/wifi_list_item_main_font_size"
+            android:layout_centerVertical="true"
+            android:text="Task Name" />
+
+        <EditText
+            android:id="@+id/et_task_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/wifi_list_item_main_font_size"
+            android:lines="1"
+            android:hint="Finish ToDo APP"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/hw_setting_night_vision_horin_margin"
+            android:duplicateParentState="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/beseye_lab_line_width"
+            android:layout_weight="4" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/beseye_lab_line_width"
+            android:layout_weight="92"
+            android:background="@color/beseyelab_line_gray"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/beseye_lab_line_width"
+            android:layout_weight="4" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/wifi_list_item_horizontal_padding"
+        android:duplicateParentState="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/wifi_list_item_main_font_size"
+            android:layout_centerVertical="true"
+            android:text="Task Note" />
+
+        <EditText
+            android:id="@+id/et_task_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/wifi_list_item_main_font_size"
+            android:inputType="textMultiLine"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:imeOptions="actionDone"
+            android:ems="10"
+            android:paddingRight="@dimen/hw_setting_night_vision_horin_margin"
+            android:duplicateParentState="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/beseye_lab_line_width"
+            android:layout_weight="4" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/beseye_lab_line_width"
+            android:layout_weight="92"
+            android:background="@color/beseyelab_line_gray"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/beseye_lab_line_width"
+            android:layout_weight="4" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/vg_due_date"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/wifi_list_item_horizontal_padding"
+        android:duplicateParentState="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/wifi_list_item_main_font_size"
+            android:layout_centerVertical="true"
+            android:text="Due Date" />
+
+        <TextView
+            android:id="@+id/txt_due_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/wifi_list_item_main_font_size"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/hw_setting_night_vision_horin_margin"
+            android:duplicateParentState="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/beseye_lab_line_width"
+            android:layout_weight="4" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/beseye_lab_line_width"
+            android:layout_weight="92"
+            android:background="@color/beseyelab_line_gray"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/beseye_lab_line_width"
+            android:layout_weight="4" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/wifi_list_item_horizontal_padding"
+        android:duplicateParentState="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/wifi_list_item_main_font_size"
+            android:layout_centerVertical="true"
+            android:text="Priority" />
+
+        <Spinner
+            android:id="@+id/sp_priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/wifi_list_item_main_font_size"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/hw_setting_night_vision_horin_margin"
+            android:duplicateParentState="true"
+            android:entries="@array/priority_array" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/beseye_lab_line_width"
+            android:layout_weight="4" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/beseye_lab_line_width"
+            android:layout_weight="92"
+            android:background="@color/beseyelab_line_gray"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="@dimen/beseye_lab_line_width"
+            android:layout_weight="4" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/wifi_list_item_horizontal_padding"
+        android:duplicateParentState="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/wifi_list_item_main_font_size"
+            android:layout_centerVertical="true"
+            android:text="Status" />
+
+        <Spinner
+            android:id="@+id/sp_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/wifi_list_item_main_font_size"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="@dimen/hw_setting_night_vision_horin_margin"
+            android:duplicateParentState="true"
+            android:entries="@array/status_array" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

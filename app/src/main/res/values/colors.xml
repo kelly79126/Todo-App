@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="word_white">#ffffff</color>
+    <color name="main_color">#00bbb3</color>
+    <color name="beseyelab_line_gray">#9e9e9f</color>
+</resources>

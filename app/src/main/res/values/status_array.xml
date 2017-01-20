@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="status_array">
+        <item>todo</item>
+        <item>on-going</item>
+        <item>pending</item>
+        <item>done</item>
+    </string-array>
+</resources>
