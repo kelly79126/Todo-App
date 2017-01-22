@@ -1,7 +1,5 @@
 package com.example.kelly79126.todo_app;
 
-import android.support.annotation.Keep;
-
 import com.raizlabs.android.dbflow.annotation.Column;
 import com.raizlabs.android.dbflow.annotation.PrimaryKey;
 import com.raizlabs.android.dbflow.annotation.Table;
@@ -11,7 +9,6 @@ import com.raizlabs.android.dbflow.structure.BaseModel;
  * Created by kelly79126 on 2017/1/11.
  */
 
-@Keep
 @Table(database = MyDatabase.class)
 public class MyTable extends BaseModel {
     @PrimaryKey(autoincrement = true)
